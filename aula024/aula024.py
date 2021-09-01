@@ -11,8 +11,9 @@ For/ Else em Python
 
 var = ['Arthur Damasio', 'Joaozinho', 'Maria']
 
+
 for valor in var:
     if valor.startswith('J'):
-        print('Começa com J')
+        # print('Começa com J')
     else:
-        print('Não começa com J')
+        # print('Não começa com J')
