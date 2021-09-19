@@ -26,8 +26,8 @@ Split, Join Enumerate em Python
 # for vl in lista2:
 #     print(vl.strip().capitalize())
 
-string = 'O Brasil é penta'
-lista = string.split(' ')
+# string = 'O Brasil é penta'
+# lista = string.split(' ')
 
 # string2 = ','.join(lista)
 #
@@ -35,5 +35,14 @@ lista = string.split(' ')
 # print(lista)
 # print(string2)
 
-for indice, v2 in enumerate(lista):
-    print(indice,v2, lista[indice])
+# for indice, v2 in enumerate(lista):
+#     print(indice,v2, lista[indice])
+
+lista = ['Luiz','João','Maria']
+
+# for indice, nome in enumerate(lista):
+#     print(indice,nome)
+
+n1, n2, n3 = lista
+
+print(n2)
